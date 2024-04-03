@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background: #FFCCCC;
+}
+
+.question{
+    font-size: 6em;
+    margin-bottom: 20px;
+    border: 1px ;
+}
+
+.answer{
+    border: 1px solid black;
+    background: #FF9933;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition: background 0.5s linear;  */
+}
+
+.answer:hover{
+    background: #CC6600;
+    box-shadow: 3px 3px 5px grey;
+    /* transition: background 0.5s linear; */
+}
+
+.main-page, .start-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.main-page{
+    display: none;
+}
+
+.answer-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.start-btn{
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #FF9933;
+}
+
+.switch-btn{
+    display: flex;
+    
+}
+
+.math-quiz, .phisic-quiz{
+    border: 1px solid black;
+    background: #FF9933;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.start-btn:hover{
+    
+    box-shadow: 3px 3px 5px grey;
+}
+
+.phisic-quiz:hover{
+    
+    box-shadow: 3px 3px 5px grey;
+}
+.math-quiz:hover{
+   
+    box-shadow: 3px 3px 5px grey;
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
